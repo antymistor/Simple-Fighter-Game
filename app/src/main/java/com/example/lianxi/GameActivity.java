@@ -106,7 +106,7 @@ public class GameActivity extends Activity {
         public void run() {
             while (true){
                    try {
-                    Thread.sleep(4000);
+                    Thread.sleep(2000);
                     if(targetcount<20) {
                         targetcount++;
                         x = (float) (40+1000 * Math.random());
